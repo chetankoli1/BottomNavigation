@@ -1,0 +1,3 @@
+rootProject.name='BottomNavigation'
+include ':app'
+include ':chetanbottomnavigation'

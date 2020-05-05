@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CellImageView">
+        <attr name="chetan_imageview_useColor" format="boolean" />
+        <attr name="chetan_imageview_isBitmap" format="boolean" />
+        <attr name="chetan_imageview_resource" format="reference" />
+        <attr name="chetan_imageview_color" format="color" />
+        <attr name="chetan_imageview_size" format="dimension" />
+        <attr name="chetan_imageview_isAction" format="boolean" />
+        <attr name="chetan_imageview_actionBackgroundAlpha" format="boolean" />
+        <attr name="chetan_imageview_changeSize" format="boolean" />
+        <attr name="chetan_imageview_fitImage" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="chetanBottomNavigation">
+        <attr name="sk_defaultIconColor" format="color" />
+        <attr name="sk_selectedIconColor" format="color" />
+        <attr name="sk_backgroundBottomColor" format="color" />
+        <attr name="sk_circleColor" format="color" />
+        <attr name="sk_countTextColor" format="color" />
+        <attr name="sk_countBackgroundColor" format="color" />
+        <attr name="sk_countTypeface" format="string" />
+        <attr name="sk_rippleColor" format="color" />
+        <attr name="sk_shadowColor" format="color" />
+    </declare-styleable>
+
+</resources>
