@@ -201,15 +201,15 @@ public final class chetanBottomNavigation extends FrameLayout {
         try {
             boolean var5 = false;
             boolean var6 = false;
-            this.setDefaultIconColor(a.getColor(R.styleable.chetanBottomNavigation_mbn_defaultIconColor, this.defaultIconColor));
-            this.setSelectedIconColor(a.getColor(R.styleable.chetanBottomNavigation_mbn_selectedIconColor, this.selectedIconColor));
-            this.setBackgroundBottomColor(a.getColor(R.styleable.chetanBottomNavigation_mbn_backgroundBottomColor, this.backgroundBottomColor));
-            this.setCircleColor(a.getColor(R.styleable.chetanBottomNavigation_mbn_circleColor, this.circleColor));
-            this.setCountTextColor(a.getColor(R.styleable.chetanBottomNavigation_mbn_countTextColor, this.countTextColor));
-            this.setCountBackgroundColor(a.getColor(R.styleable.chetanBottomNavigation_mbn_countBackgroundColor, this.countBackgroundColor));
-            this.rippleColor = a.getColor(R.styleable.chetanBottomNavigation_mbn_rippleColor, this.rippleColor);
-            this.shadowColor = a.getColor(R.styleable.chetanBottomNavigation_mbn_shadowColor, this.shadowColor);
-            String typeface = a.getString(R.styleable.chetanBottomNavigation_mbn_countTypeface);
+            this.setDefaultIconColor(a.getColor(R.styleable.chetanBottomNavigation_sk_defaultIconColor, this.defaultIconColor));
+            this.setSelectedIconColor(a.getColor(R.styleable.chetanBottomNavigation_sk_selectedIconColor, this.selectedIconColor));
+            this.setBackgroundBottomColor(a.getColor(R.styleable.chetanBottomNavigation_sk_backgroundBottomColor, this.backgroundBottomColor));
+            this.setCircleColor(a.getColor(R.styleable.chetanBottomNavigation_sk_circleColor, this.circleColor));
+            this.setCountTextColor(a.getColor(R.styleable.chetanBottomNavigation_sk_countTextColor, this.countTextColor));
+            this.setCountBackgroundColor(a.getColor(R.styleable.chetanBottomNavigation_sk_countBackgroundColor, this.countBackgroundColor));
+            this.rippleColor = a.getColor(R.styleable.chetanBottomNavigation_sk_rippleColor, this.rippleColor);
+            this.shadowColor = a.getColor(R.styleable.chetanBottomNavigation_sk_shadowColor, this.shadowColor);
+            String typeface = a.getString(R.styleable.chetanBottomNavigation_sk_countTypeface);
             if (typeface != null) {
                 boolean var11 = false;
                 if (((CharSequence) typeface).length() > 0) {
@@ -334,7 +334,7 @@ public final class chetanBottomNavigation extends FrameLayout {
         BezierView var10000 = this.bezierView;
 
         float beforeX = var10000.getBezierX();
-        anim.addUpdateListener(new MeowBottomNavigation$anim$$inlined$apply$lambda$1(beforeX, this, animDuration, animInterpolator, cell));
+        anim.addUpdateListener(new chetanBottomNavigation$anim$$inlined$apply$lambda$1(beforeX, this, animDuration, animInterpolator, cell));
         anim.start();
         int var14 = pos - nowPos;
         boolean var26;
@@ -343,7 +343,7 @@ public final class chetanBottomNavigation extends FrameLayout {
             boolean var17 = false;
             progressAnim.setDuration(animDuration);
             progressAnim.setInterpolator(animInterpolator);
-            progressAnim.addUpdateListener(new MeowBottomNavigation$anim$$inlined$apply$lambda$2(this, animDuration, animInterpolator));
+            progressAnim.addUpdateListener(new chetanBottomNavigation$anim$$inlined$apply$lambda$2(this, animDuration, animInterpolator));
             progressAnim.start();
         }
 
@@ -584,7 +584,7 @@ public final class chetanBottomNavigation extends FrameLayout {
     }
 
 
-    class MeowBottomNavigation$anim$$inlined$apply$lambda$1 implements ValueAnimator.AnimatorUpdateListener {
+   static class chetanBottomNavigation$anim$$inlined$apply$lambda$1 implements ValueAnimator.AnimatorUpdateListener {
         // $FF: synthetic field
         final float $beforeX;
         // $FF: synthetic field
@@ -596,7 +596,7 @@ public final class chetanBottomNavigation extends FrameLayout {
         // $FF: synthetic field
         final chetanBottomNavigationCell $cell$inlined;
 
-        MeowBottomNavigation$anim$$inlined$apply$lambda$1(float var1, chetanBottomNavigation var2, long var3, FastOutSlowInInterpolator var5, chetanBottomNavigationCell var6) {
+        chetanBottomNavigation$anim$$inlined$apply$lambda$1(float var1, chetanBottomNavigation var2, long var3, FastOutSlowInInterpolator var5, chetanBottomNavigationCell var6) {
             this.$beforeX = var1;
             this.this$0 = var2;
             this.$animDuration$inlined = var3;
@@ -620,7 +620,7 @@ public final class chetanBottomNavigation extends FrameLayout {
         }
     }
 
-    final class MeowBottomNavigation$anim$$inlined$apply$lambda$2 implements ValueAnimator.AnimatorUpdateListener {
+    final static class chetanBottomNavigation$anim$$inlined$apply$lambda$2 implements ValueAnimator.AnimatorUpdateListener {
         // $FF: synthetic field
         final chetanBottomNavigation this$0;
         // $FF: synthetic field
@@ -628,7 +628,7 @@ public final class chetanBottomNavigation extends FrameLayout {
         // $FF: synthetic field
         final FastOutSlowInInterpolator $animInterpolator$inlined;
 
-        MeowBottomNavigation$anim$$inlined$apply$lambda$2(chetanBottomNavigation var1, long var2, FastOutSlowInInterpolator var4) {
+        chetanBottomNavigation$anim$$inlined$apply$lambda$2(chetanBottomNavigation var1, long var2, FastOutSlowInInterpolator var4) {
             this.this$0 = var1;
             this.$animDuration$inlined = var2;
             this.$animInterpolator$inlined = var4;

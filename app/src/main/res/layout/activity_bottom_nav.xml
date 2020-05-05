@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bottomNav">
+
+    <com.sagarkoli.chetanbottomnavigation.chetanBottomNavigation
+        android:id="@+id/chetanBottomNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:sk_circleColor="#ffffff"
+        app:sk_backgroundBottomColor="#ffffff"
+        app:sk_countBackgroundColor="#ff6f00"
+        app:sk_countTextColor="#ffffff"
+        app:sk_countTypeface="fonts/SourceSansPro-Regular.ttf"
+        app:sk_defaultIconColor="#90a4ae"
+        app:sk_rippleColor="#2f424242"
+        app:sk_selectedIconColor="#3c415e"
+        app:sk_shadowColor="#1f212121"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

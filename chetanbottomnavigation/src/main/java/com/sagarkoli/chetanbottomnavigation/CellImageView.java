@@ -107,14 +107,14 @@ public final class CellImageView extends AppCompatImageView {
         TypedArray a = context.getTheme().obtainStyledAttributes(attrs, R.styleable.CellImageView, 0, 0);
 
         try {
-            this.setBitmap(a.getBoolean(R.styleable.CellImageView_meow_imageview_isBitmap, this.isBitmap));
-            this.setUseColor(a.getBoolean(R.styleable.CellImageView_meow_imageview_useColor, this.useColor));
-            this.setResource(a.getResourceId(R.styleable.CellImageView_meow_imageview_resource, this.resource));
-            this.setColor(a.getColor(R.styleable.CellImageView_meow_imageview_color, this.color));
-            this.setSize(a.getDimensionPixelSize(R.styleable.CellImageView_meow_imageview_size, this.size));
-            this.actionBackgroundAlpha = a.getBoolean(R.styleable.CellImageView_meow_imageview_actionBackgroundAlpha, this.actionBackgroundAlpha);
-            this.changeSize = a.getBoolean(R.styleable.CellImageView_meow_imageview_changeSize, this.changeSize);
-            this.fitImage = a.getBoolean(R.styleable.CellImageView_meow_imageview_fitImage, this.fitImage);
+            this.setBitmap(a.getBoolean(R.styleable.CellImageView_chetan_imageview_isBitmap, this.isBitmap));
+            this.setUseColor(a.getBoolean(R.styleable.CellImageView_chetan_imageview_useColor, this.useColor));
+            this.setResource(a.getResourceId(R.styleable.CellImageView_chetan_imageview_resource, this.resource));
+            this.setColor(a.getColor(R.styleable.CellImageView_chetan_imageview_color, this.color));
+            this.setSize(a.getDimensionPixelSize(R.styleable.CellImageView_chetan_imageview_size, this.size));
+            this.actionBackgroundAlpha = a.getBoolean(R.styleable.CellImageView_chetan_imageview_actionBackgroundAlpha, this.actionBackgroundAlpha);
+            this.changeSize = a.getBoolean(R.styleable.CellImageView_chetan_imageview_changeSize, this.changeSize);
+            this.fitImage = a.getBoolean(R.styleable.CellImageView_chetan_imageview_fitImage, this.fitImage);
         } finally {
             a.recycle();
         }
