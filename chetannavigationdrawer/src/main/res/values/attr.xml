@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="chetanDrawerLayout">
+        <attr name="sk_nav_menu" format="reference"/>
+        <attr name="sk_nav_content" format="reference"/>
+        <attr name="sk_nav_contentScaleClosed" format="float"/>
+        <attr name="sk_nav_clickToCloseScale" format="float"/>
+        <attr name="sk_nav_contentScaleOpen" format="float"/>
+        <attr name="sk_nav_menuScaleClosed" format="float"/>
+        <attr name="sk_nav_menuScaleOpen" format="float"/>
+        <attr name="sk_nav_menuAlphaClosed" format="float"/>
+        <attr name="sk_nav_menuAlphaOpen" format="float"/>
+        <attr name="sk_nav_marginFactor" format="float"/>
+    </declare-styleable>
+    <declare-styleable name="chetanMenuView">
+        <attr name="sk_menu_header" format="reference"/>
+        <attr name="sk_menu_footer" format="reference"/>
+        <attr name="sk_menu_background" format="reference"/>
+    </declare-styleable>
+</resources>
