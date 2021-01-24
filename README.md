@@ -1,5 +1,7 @@
 # BottomNavigation
 
+# YouTube : [How to create Full Gaeid this library](https://youtu.be/UsQ-A29A07w)
+
 ## Download  
 build.gradle (project path)  
 ```groovy  
@@ -32,4 +34,4 @@ dependencies {
         app:sk_shadowColor="#1f212121">
     </com.sagarkoli.chetanbottomnavigation.chetanBottomNavigation>
 ```  
-YouTube : [How to create Full Guaid](https://youtu.be/UsQ-A29A07w)
+#YouTube : [How to create Full Gaeid this library](https://youtu.be/UsQ-A29A07w)
