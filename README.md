@@ -1,6 +1,6 @@
 # BottomNavigation
 
-# YouTube : [How to create Full Gaeid this library](https://youtu.be/UsQ-A29A07w)
+# YouTube : [click Here to full guid this andriod library](https://youtu.be/UsQ-A29A07w)
 
 ## Download  
 build.gradle (project path)  
