@@ -5,12 +5,12 @@
 ## Download  
 build.gradle (project path)  
 ```groovy  
-allprojects {
+
 		repositories {
 			...
 			maven { url 'https://jitpack.io' }
 		}
-	}
+
 ```   
 ```
 dependencies {  
